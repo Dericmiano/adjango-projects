@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+:root {
+    --font-base: "DM Sans", sans-serif;
+
+    --primary-color: #edf2f8;
+    --secondary-color: #313bac;
+    --black-color: #030303;
+    --lightGray-color: #e4e4e4;
+    --gray-color: #6b7688;
+    --brown-color: #46364a;
+    --white-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+h3 {
+
+    padding: 1rem;
+}
+.rating span{
+    margin: 0.1rem;
+}
+main{
+    min-height: 80vh;
+}
+
+h1{
+  font-size: 1.8rem;
+  padding:1rem 0;
+}
+
+h2{
+  font-size: 1.2rem;
+  padding:0.5rem 0;
+}
+
+
+.rating span{
+  margin:0.1rem;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h4 {
+  color: #fff;
+}
+
+.carousel img {
+  display:block;
+  height: 300px;
+  padding: 30px;
+  border-radius: 50%;
+  margin: 40px auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}

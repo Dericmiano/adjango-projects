@@ -1,0 +1,57 @@
+//.myImage_nav {
+//  height: 100px;
+//  width: 100px;
+//}
+//.myNav {
+//  width: 100%;
+//  height: 70px;
+//}
+//.myText_nav {
+//  margin: auto;
+//  display: flex;
+//  flex-direction: row;
+//  padding-bottom: 50px;
+//}
+.my_brand_head{
+  padding: 5% 5% 5% 5px;
+  //padding: 10% 10px 10% 10%;
+      border: 2px solid rgba(212, 175, 55, 0.69);
+
+    //border: 2px solid rgba(255, 215, 0, 0.69);
+   border-radius: 10%;
+  margin: 0;
+  display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: end;
+  flex-direction: column;
+
+
+}
+.my_brand_name{
+  font-size: 10px;
+  color: rgba(255, 215, 0, 0.98);
+font-family: 'Playfair Display', serif;
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+
+}
+.my_brand_high{
+    font-size: 5px;
+    color:#FFD700;
+  font-family: 'Playfair Display', serif;
+  padding: 0;
+
+
+
+}
+.my_brand_quality{
+  font-size: 3px;
+    color:#FFD700;
+  font-family: 'Playfair Display', serif;
+  padding: 0;
+
+
+
+}
